@@ -1,7 +1,9 @@
 🧾 CRUD Simples de Receitas em React
+
 Este é um projeto simples de CRUD (Create, Read, Update, Delete) desenvolvido com React que permite ao usuário cadastrar, visualizar, editar e excluir receitas culinárias. Os dados são armazenados localmente no localStorage do navegador, garantindo que não se percam ao recarregar a página.
 
 ✨ Funcionalidades
+
 ✅ Cadastrar novas receitas com nome, ingredientes, modo de preparo e tempo de duração.
 
 ✅ Listar todas as receitas cadastradas.
