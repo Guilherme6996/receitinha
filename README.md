@@ -29,23 +29,3 @@ O estado das receitas e do formulário.
 A persistência dos dados via localStorage.
 
 A renderização dinâmica da lista de receitas e do formulário de edição.
-
-💡 Como usar
-Clone o repositório:
-
-bash
-Copiar
-Editar
-git clone https://github.com/seu-usuario/seu-repositorio.git
-Instale as dependências:
-
-bash
-Copiar
-Editar
-npm install
-Inicie o servidor de desenvolvimento:
-
-bash
-Copiar
-Editar
-npm start
