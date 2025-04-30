@@ -1,0 +1,100 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Corpo da página */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Container principal */
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #111;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+}
+
+/* Títulos */
+h1, h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+/* Formulário */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #222;
+  color: #fff;
+  font-size: 14px;
+  resize: none;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+  color: #aaa;
+}
+
+/* Botões */
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #444;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #666;
+}
+
+button + button {
+  margin-left: 10px;
+}
+
+/* Lista de receitas */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  border-left: 5px solid #555;
+}
+
+li strong {
+  font-size: 1.2em;
+  color: #fff;
+}
+
+li p {
+  margin: 6px 0;
+  color: #ddd;
+}
